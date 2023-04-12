@@ -14,3 +14,10 @@ This is a folder for practice pytorch framework from creating model to deploying
 * **LinearRegression:** This notebook is to try to use torch framework to create linear regression model. (Learn to create training loop and inference in pytorch)
 * **Classification:** This notbook consists of binary classification and multiclass classification generated using sklearn lib. It also creates neural network with only linear activation functions and adding some non-linear activation functions. In the last section, multiclass spiral dataset was created and classified with neural network. (Learn to create more complex model and various kind of loss function)
 * **ComputerVision:** Fashion MNIST dataset is used in this notebook. First, trying to use only linear and non-linear activation fucntion in neural network to create the model to classify some types of clothes. Then using Convolution Neural Network(CNN) classify the data and compare with other model. (Learn to create training loop when data must be divided into batches)
+* **CustomDataset:**
+
+* **Modular:** try to change jupyter notebook into python file. \
+The command to train is: \
+```python train.py --train_dir PATH_TRAIN --test_dir PATH_TEST --num_epochs 2 --batch_size 32 --hidden 20 --lr 0.001 ```
+Command to load data is: \
+```python download.py ```
