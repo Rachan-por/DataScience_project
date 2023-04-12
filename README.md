@@ -17,7 +17,7 @@ This is a folder for practice pytorch framework from creating model to deploying
 * **CustomDataset:**
 
 * **Modular:** try to change jupyter notebook into python file. \
-The command to train is: \
-```python train.py --train_dir PATH_TRAIN --test_dir PATH_TEST --num_epochs 2 --batch_size 32 --hidden 20 --lr 0.001 ```
+Command to train is: \
+```python train.py --train_dir PATH_TRAIN --test_dir PATH_TEST --num_epochs 2 --batch_size 32 --hidden 20 --lr 0.001 ``` \
 Command to load data is: \
 ```python download.py ```
